@@ -12,7 +12,7 @@ Plugin under the GNU/GPL 3 license.
 ## Spanish:
 Plugin para WordPress que permite entrar o registrarse en tu sitio web usando [Telegram Loging for Websites](https://telegram.org/blog/login)
 
-Para usar este plugin necesitas crear un nuevo bot de Telegram. Lea esto para saber como.
+Para usar este plugin necesitas crear un nuevo bot de Telegram. [Lea esto para saber como](https://github.com/son-link/wp-tg-login/wiki/Como-crear-el-bot-de-Telegram).
 
 Plugin bajo la licencia GNU/GPL 3.
 
