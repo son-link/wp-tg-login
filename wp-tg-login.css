@@ -1,0 +1,70 @@
+#tg-spinner {display: none}
+
+#tg-spinner {
+  width: 40px;
+  height: 40px;
+  margin: 10px auto;
+  background-color: #0074D9;
+
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+#profile-page #tg-spinner{
+  margin: 10px;
+  margin-left: 100px;
+}
+
+#tg-login-msg {
+  background-color: #2ECC40;
+  padding: 5px;
+  color: #111;
+  position: relative;
+  display: none;
+  max-width: 270px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 5px 1px;
+}
+
+#tg-login-msg.error{
+  background-color: #FF4136;
+}
+
+#tg-login-msg >span a {
+  color: #001F3F;
+}
+
+#tg-login-msg > a {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background-image: url('close.png');
+  background-size: 12px;
+  background-repeat: none;
+}
+
+#tg-login-msg > span {margin-top: 10px; display: block}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
